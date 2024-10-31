@@ -1,0 +1,125 @@
+// import { hashSync } from 'bcryptjs';
+
+const sampleData = {
+
+  products: [
+    {
+      name: 'Superman: Man of Steel',
+      slug: 'superman-man-of-steel',
+      category: 'Comics',
+      images: ['/assets/images/Superman1.jpg', '/assets/images/superman'],
+      price: '19.99',
+      brand: 'DC Comics',
+      rating: '4.8',
+      numReviews: 145,
+      stock: 10,
+      description:
+        'Follow Superman as he faces off against new and old foes in this thrilling edition of the "Man of Steel" series.',
+      isFeatured: true,
+      banner: '/assets/images/comic1-banner.jpeg',
+    },
+    {
+      name: 'Batman: The Dark Knight Returns',
+      slug: 'batman-the-dark-knight-returns',
+      category: 'Comics',
+      images: ['/assets/images/batman1.jpg', '/assets/images/comic2-back.jpeg'],
+      price: '24.99',
+      brand: 'DC Comics',
+      rating: '5.0',
+      numReviews: 200,
+      stock: 7,
+      description:
+        'In a dystopian future, Batman returns to Gotham City to battle crime once more. A classic by Frank Miller.',
+      isFeatured: true,
+      banner: '/assets/images/comic2-banner.jpeg',
+    },
+    {
+      name: 'Spider-Man: Into the Spider-Verse',
+      slug: 'spider-man-into-the-spider-verse',
+      category: 'Comics',
+      images: ['/assets/images/Spiderman.jpg', '/assets/images/comic3-back.jpeg'],
+      price: '17.95',
+      brand: 'Marvel',
+      rating: '4.7',
+      numReviews: 95,
+      stock: 12,
+      description:
+        'Experience the multiverse as multiple versions of Spider-Man team up to fight against a common threat.',
+    },
+    {
+      name: 'Wonder Woman: Bloodlines',
+      slug: 'wonder-woman-bloodlines',
+      category: 'Comics',
+      images: ['/assets/images/Wonder_Woman.jpg', '/assets/images/comic4-back.jpeg'],
+      price: '22.50',
+      brand: 'DC Comics',
+      rating: '4.6',
+      numReviews: 80,
+      stock: 15,
+      description:
+        'An action-packed adventure where Wonder Woman fights new and old enemies, balancing her life as a warrior and a hero.',
+    },
+    {
+      name: 'Iron Man: Extremis',
+      slug: 'iron-man-extremis',
+      category: 'Comics',
+      images: ['/assets/images/ironman.jpg', '/assets/images/ironman-back.jpeg'],
+      price: '19.99',
+      brand: 'Marvel',
+      rating: '4.9',
+      numReviews: 120,
+      stock: 10,
+      description:
+        'Follow Tony Stark as he faces a new breed of enemies in this modern reimagining of the Iron Man mythos.',
+      isFeatured: true,
+      banner: '/assets/images/ironman-banner.jpeg',
+    },
+    {
+      name: 'Thor: God of Thunder',
+      slug: 'thor-god-of-thunder',
+      category: 'Comics',
+      images: ['/assets/images/thor.jpg', '/assets/images/thor-back.jpeg'],
+      price: '22.99',
+      brand: 'Marvel',
+      rating: '4.8',
+      numReviews: 150,
+      stock: 8,
+      description:
+        'Experience the epic adventures of Thor as he battles dark forces and protects Asgard from powerful foes.',
+      isFeatured: true,
+      banner: '/assets/images/thor-banner.jpeg',
+    },
+    {
+      name: 'Black Panther: A Nation Under Our Feet',
+      slug: 'black-panther-nation-under-our-feet',
+      category: 'Comics',
+      images: ['/assets/images/blackpanther.jpg', '/assets/images/blackpanther-back.jpeg'],
+      price: '23.50',
+      brand: 'Marvel',
+      rating: '4.7',
+      numReviews: 95,
+      stock: 12,
+      description:
+        'TChalla must fight to reclaim his throne as Wakanda faces both internal and external threats.',
+      isFeatured: true,
+      banner: '/assets/images/blackpanther-banner.jpeg',
+    },
+    {
+      name: 'Flash: Rebirth',
+      slug: 'flash-rebirth',
+      category: 'Comics',
+      images: ['/assets/images/flash.jpg', '/assets/images/flash-back.jpeg'],
+      price: '18.99',
+      brand: 'DC Comics',
+      rating: '4.6',
+      numReviews: 100,
+      stock: 15,
+      description:
+        'Barry Allen returns as the Flash in this thrilling story about identity, legacy, and speed.',
+      isFeatured: true,
+      banner: '/assets/images/flash-banner.jpeg',
+    },
+  ],
+};
+
+export default sampleData;

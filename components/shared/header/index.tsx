@@ -10,7 +10,7 @@ const Header = async () => {
         <div className="flex-start">
           <Link href="/" className="flex-start">
             <Image
-              src="/assets/icons/comic-logo(1).svg"
+              src="/assets/icons/logo1.svg"
               width={48}
               height={48}
               alt={`${APP_NAME} logo`}

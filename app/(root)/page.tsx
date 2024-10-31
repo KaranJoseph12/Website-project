@@ -1,10 +1,12 @@
-import { Button } from "@/components/ui/button";
+import ProductList from '@/components/shared/product/product-list'
+import sampleData from '@/lib/sample-data'
 
 
 export default function Home() {
   return (
-    <div>
-      <Button>Button</Button>
-    </div>
+    <div className="space-y-8">
+    <ProductList  data={sampleData.products} />
+    
+  </div>
   )
 }
