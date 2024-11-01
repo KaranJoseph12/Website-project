@@ -1,20 +1,19 @@
 // import { hashSync } from 'bcryptjs';
 
 const sampleData = {
-
   products: [
     {
       name: 'Superman: Man of Steel',
       slug: 'superman-man-of-steel',
       category: 'Comics',
-      images: ['/assets/images/Superman1.jpg', '/assets/images/superman'],
+      images: ['/assets/images/Superman1.jpg', '/assets/images/superman2.jpg'],
       price: '19.99',
       brand: 'DC Comics',
       rating: '4.8',
       numReviews: 145,
       stock: 10,
       description:
-        'Follow Superman as he faces off against new and old foes in this thrilling edition of the "Man of Steel" series.',
+        'In this thrilling edition of the "Man of Steel" series, Superman confronts both new and familiar foes, pushing the limits of his strength and resolve. As he navigates personal challenges and the responsibilities of being a hero, readers will witness breathtaking battles and emotional moments that redefine what it means to be Superman in a world that often misunderstands him.',
       isFeatured: true,
       banner: '/assets/images/comic1-banner.jpeg',
     },
@@ -22,14 +21,14 @@ const sampleData = {
       name: 'Batman: The Dark Knight Returns',
       slug: 'batman-the-dark-knight-returns',
       category: 'Comics',
-      images: ['/assets/images/batman1.jpg', '/assets/images/comic2-back.jpeg'],
+      images: ['/assets/images/batman1.jpg', '/assets/images/batman2.jpg'],
       price: '24.99',
       brand: 'DC Comics',
       rating: '5.0',
       numReviews: 200,
       stock: 7,
       description:
-        'In a dystopian future, Batman returns to Gotham City to battle crime once more. A classic by Frank Miller.',
+        'In a dystopian future where crime runs rampant, an aging Bruce Wayne re-emerges as the Dark Knight. This classic story by Frank Miller captures Batman’s fierce determination to save Gotham City from itself. Battling old adversaries and new threats, he confronts his legacy while exploring themes of redemption, morality, and the complex nature of heroism in a world that has forgotten what true justice means.',
       isFeatured: true,
       banner: '/assets/images/comic2-banner.jpeg',
     },
@@ -37,27 +36,27 @@ const sampleData = {
       name: 'Spider-Man: Into the Spider-Verse',
       slug: 'spider-man-into-the-spider-verse',
       category: 'Comics',
-      images: ['/assets/images/Spiderman.jpg', '/assets/images/comic3-back.jpeg'],
+      images: ['/assets/images/Spiderman.jpg', '/assets/images/spiderman2.jpg'],
       price: '17.95',
       brand: 'Marvel',
       rating: '4.7',
       numReviews: 95,
       stock: 12,
       description:
-        'Experience the multiverse as multiple versions of Spider-Man team up to fight against a common threat.',
+        'Dive into the multiverse with Spider-Man as he teams up with alternate versions of himself from different dimensions. This exhilarating adventure explores the themes of identity and heroism as these diverse Spider-People unite to confront a formidable threat that endangers all realities. With stunning visuals and a captivating storyline, this comic is a celebration of what it means to be Spider-Man, no matter where you come from.',
     },
     {
       name: 'Wonder Woman: Bloodlines',
       slug: 'wonder-woman-bloodlines',
       category: 'Comics',
-      images: ['/assets/images/Wonder_Woman.jpg', '/assets/images/comic4-back.jpeg'],
+      images: ['/assets/images/Wonder_Woman.jpg', '/assets/images/wonderwoman2.jpg'],
       price: '22.50',
       brand: 'DC Comics',
       rating: '4.6',
       numReviews: 80,
       stock: 15,
       description:
-        'An action-packed adventure where Wonder Woman fights new and old enemies, balancing her life as a warrior and a hero.',
+        'Join Wonder Woman as she faces a formidable roster of new and old enemies in this action-packed adventure. Balancing her dual identity as both a fierce warrior and a compassionate hero, she must navigate complex challenges while fighting to protect humanity. This storyline delves into themes of empowerment and the importance of heritage, showcasing the iconic Amazonian’s struggle to uphold her values in a world filled with chaos and conflict.',
     },
     {
       name: 'Iron Man: Extremis',
@@ -70,7 +69,7 @@ const sampleData = {
       numReviews: 120,
       stock: 10,
       description:
-        'Follow Tony Stark as he faces a new breed of enemies in this modern reimagining of the Iron Man mythos.',
+        'In this modern reimagining of Iron Man, Tony Stark faces a new breed of enemies that challenge the very fabric of his technological prowess. As he grapples with his identity and the moral implications of his inventions, Stark must harness his genius to overcome a threat that is as much about ideas as it is about physical combat. The narrative explores themes of innovation, responsibility, and the personal cost of being a hero.',
       isFeatured: true,
       banner: '/assets/images/ironman-banner.jpeg',
     },
@@ -85,7 +84,7 @@ const sampleData = {
       numReviews: 150,
       stock: 8,
       description:
-        'Experience the epic adventures of Thor as he battles dark forces and protects Asgard from powerful foes.',
+        'Follow Thor as he embarks on epic adventures to protect Asgard and the realms beyond from powerful adversaries. This saga not only showcases stunning battles and mystical realms but also delves into Thor’s journey of self-discovery, examining his role as both a warrior and a leader. Through encounters with gods and monsters, readers will witness the complexities of duty, honor, and the true meaning of heroism in the face of overwhelming odds.',
       isFeatured: true,
       banner: '/assets/images/thor-banner.jpeg',
     },
@@ -100,7 +99,7 @@ const sampleData = {
       numReviews: 95,
       stock: 12,
       description:
-        'TChalla must fight to reclaim his throne as Wakanda faces both internal and external threats.',
+        'As T’Challa fights to reclaim his throne, Wakanda faces both internal strife and external threats. This gripping narrative intricately weaves political intrigue and action, offering insights into the complexities of leadership and heritage. Through battles against powerful foes, Black Panther must unite his people and confront the legacy of his past, making this a powerful story about identity, responsibility, and the struggle for justice in a fractured world.',
       isFeatured: true,
       banner: '/assets/images/blackpanther-banner.jpeg',
     },
@@ -115,7 +114,7 @@ const sampleData = {
       numReviews: 100,
       stock: 15,
       description:
-        'Barry Allen returns as the Flash in this thrilling story about identity, legacy, and speed.',
+        'Barry Allen returns as the Flash in this thrilling tale that reinvigorates his legacy and explores the themes of identity and speed. As he races against time and confronts his own past, Barry must not only face formidable enemies but also redefine his role as a hero in a world that desperately needs him. This story captures the essence of what it means to be fast, while highlighting the emotional journey of a hero who must come to terms with his legacy.',
       isFeatured: true,
       banner: '/assets/images/flash-banner.jpeg',
     },
